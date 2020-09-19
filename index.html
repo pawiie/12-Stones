@@ -7,95 +7,107 @@
 </head>
 
 <body>
+    <script type="text/javascript" src="/js/index.js"></script>
     <div class="welcome">
         <h1>Welcome to the world of Stones</h1>
         <br>
+        <button id="btn" onclick="display()">click to play</button>
     </div>
+
+
+    <div class="text">
+        <p id="text_box"> play on</p>
+    </div>
+
+    <!-- <div class="form">
+        <form>
+        <input type="text" value="#" id="ip1">
+        <input type="text" value="#" id="ip2">
+        <button> DONE</button>
+        </form>
+    </div> -->
     <!-- board -->
     <div class="board">
         <table class="board_table">
             <tr class="r1">
-                <td class="c1">
+                <td class="c1"  id="11" onclick="return_id(1,1)">
+                </td>
+                <td class="c2" id="12" onclick="return_id(1,2)">   
+                </td>
+                <td class="c3" id="13" onclick="return_id(1,3)">
                     
                 </td>
-                <td class="c2">
+                <td class="c4" id="14" onclick="return_id(1,4)">
                     
                 </td>
-                <td class="c2">
-                    
-                </td>
-                <td class="c4">
-                    
-                </td>
-                <td class="c5">
+                <td class="c5" id="15" onclick="return_id(1,5)">
                   
                 </td>
             </tr>
             <tr class="r2">
-                <td class="c1">
+                <td class="c1" id ="21" onclick="return_id(2,1)">
+                </td>
+                <td class="c2" id ="22" onclick="return_id(2,2)">
                    
                 </td>
-                <td class="c2">
-                   
-                </td>
-                <td class="c2">
+                <td class="c3" id ="23" onclick="return_id(2,3)">
                   
                 </td>
-                <td class="c4">
+                <td class="c4" id ="24" onclick="return_id(2,4)">
                     
                 </td>
-                <td class="c5">
+                <td class="c5" id ="25" onclick="return_id(2,5)">
                    
                 </td>
             </tr>
-            <tr class="r3">
-                <td class="c1">
+            <tr class="r3" >
+                <td class="c1" id ="31" onclick="return_id(3,1)">
                     
                 </td>
-                <td class="c2">
+                <td class="c2" id ="32" onclick="return_id(3,2)">
                    
                 </td>
-                <td class="c2">
+                <td class="c3" id ="33" onclick="return_id(3,3)">
 
                 </td>
-                <td class="c4">
+                <td class="c4" id ="34" onclick="return_id(3,4)">
                     
                 </td>
-                <td class="c5">
+                <td class="c5" id ="35" onclick="return_id(3,5)">
                     
                 </td>
             </tr>
             <tr class="r4">
-                <td class="c1">
+                <td class="c1" id ="41" onclick="return_id(4,1)">
                    
                 </td>
-                <td class="c2">
+                <td class="c2" id ="42" onclick="return_id(4,2)">
                    
                 </td>
-                <td class="c2">
+                <td class="c3" id ="43" onclick="return_id(4,3)">
                     
                 </td>
-                <td class="c4">
+                <td class="c4" id ="44" onclick="return_id(4,4)">
                   
                 </td>
-                <td class="c5">
+                <td class="c5" id ="45" onclick="return_id(4,5)">
                     
                 </td>
             </tr>
             <tr class="r5">
-                <td class="c1">
+                <td class="c1" id ="51" onclick="return_id(5,1)">
                     
                 </td>
-                <td class="c2">
+                <td class="c2" id ="52" onclick="return_id(5,2)">
                     
                 </td>
-                <td class="c2">
+                <td class="c3" id ="53" onclick="return_id(5,3)">
                    
                 </td>
-                <td class="c4">
+                <td class="c4" id ="54" onclick="return_id(5,4)">
                  
                 </td>
-                <td class="c5">
+                <td class="c5" id ="55" onclick="return_id(5,5)">
                     
                 </td>
             </tr>
