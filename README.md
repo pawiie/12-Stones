@@ -3,3 +3,6 @@ It is the game palyed by two opponents at a time with their set of identical sto
 The player who reamins on the board till the last with one or more stones remaining is declared as winner.
 
 ![12-Stones](/image/thumbnail.png)
+
+# Rules :
+Will be added soon
