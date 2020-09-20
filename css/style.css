@@ -38,7 +38,7 @@ body{
 
 
 .board_table td:hover{
-    background-color: aqua;
+    border-color: aqua;
 }
 .text{
     width: 50%;

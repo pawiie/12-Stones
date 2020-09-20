@@ -4,5 +4,5 @@ The player who reamins on the board till the last with one or more stones remain
 
 ![12-Stones](/image/thumbnail.png)
 
-# Rules:
+# Rules
 Too be updated soon!
